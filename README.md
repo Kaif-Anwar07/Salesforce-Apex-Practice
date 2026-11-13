@@ -1,58 +1,107 @@
-# Salesforce DX Project
+# Salesforce Apex Practice 🚀
 
-Salesforce DX is a development approach that brings source-driven development, team collaboration, and continuous integration to the Salesforce Platform. Instead of working directly in an org through a web browser, you work with metadata as source files in a local DX project, track changes in version control, and deploy through automated processes.
+Welcome to my Salesforce Development Learning Journey!
 
-This project template gets you started with the tools and structure you need to build Salesforce applications using source control, scratch orgs, and the Salesforce CLI.
+This repository documents my hands-on learning, Apex programming practice, coding challenges, and Salesforce development concepts.
 
-## Prerequisites
+I am building my skills in Salesforce Development by learning concepts, solving practical problems, and implementing solutions using Salesforce Developer Tools.
 
-Before you start, make sure you have:
+## 👨‍💻 About Me
 
-- **Salesforce CLI** - Download from [developer.salesforce.com/tools/salesforcecli](https://developer.salesforce.com/tools/salesforcecli). See [Install Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) for details.
-- **VS Code with Salesforce Extension Pack** - See [Installation Instructions](https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/install.html) for details. Includes the Agentforce Vibes extension.
-- **A development org** - Sign up for a free Developer Edition org [here](https://developer.salesforce.com/signup).
-- **Dev Hub enabled** (optional, required to create scratch orgs) - You can enable Dev Hub in your development org under Setup > Dev Hub.  See [Provide Developers Access to Salesforce DX Tools](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_dx_tools.htm).
+- **Name:** Kaif Anwar
+- **Education:** B.Tech in Computer Science Engineering (2025)
+- **Learning Path:** Salesforce Developer
+- **Goal:** Become a skilled Salesforce Developer.
 
-## Project Structure
+## 🛠️ Technologies & Tools
 
-Your DX project follows this structure:
+- Salesforce Apex
+- Salesforce Platform
+- Salesforce CLI
+- Visual Studio Code
+- Salesforce Developer Console
+- SOQL & SOSL
+- Git & GitHub
+- Trailhead Playground
 
-- **`force-app/main/default/`** - Your metadata source files live in this default package directory. You can configure additional package directories in the `sfdx-project.json` file.
-- **`config/`** - Scratch org definitions and project settings
-- **`scripts/`** - Automation scripts for common tasks
-- **`sfdx-project.json`** - Project manifest that defines package directories, namespace, API version, and other project-level settings
+## 📚 Learning Roadmap
 
-See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm).
+| # | Topic | Status |
+|---|---|---|
+| 1 | Salesforce Fundamentals | 🔄 Learning |
+| 2 | Apex Fundamentals | 🔄 Learning |
+| 3 | Variables & Data Types | 🔄 Learning |
+| 4 | Conditional Statements | 🔄 Learning |
+| 5 | Loops | 🔄 Learning |
+| 6 | Apex Collections (List, Set, Map) 
+| 7 | String Manipulation 
+| 8 | Apex Logic & Data Manipulation
+| 9 | DML Operations
+| 10 | SOQL
+| 11 | SOSL
+| 12 | Apex Triggers 
+| 13 | Exception Handling
+| 14 | Apex Test Classes
+| 15 | Governor Limits 
+| 16 | Lightning Web Components (LWC)
 
-## Get Started
+## 💻 Coding Challenges
 
-Ready to start developing? The [Get Started with Salesforce DX](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_get_started_dx.htm) guide walks you through your first project, from creating a scratch org to creating a simple Apex class or LWC to deploying your code to a sandbox.
+A collection of Apex programming problems and their solutions.
 
-## Common Salesforce CLI Commands
+| # | Problem | Description | Status |
+|---|---|---|---|
+| 1 | StringListTest | Generate a List of Strings containing Test 0, Test 1, and so on. | ✅ Completed |
 
-Here are common CLI commands that you'll use the most:
+More coding challenges will be added as I progress through my Salesforce training.
 
-- `sf org login web`: Authorize an org
-- `sf org open`: Open your org in a browser
-- `sf org create scratch`: Create a scratch org
-- `sf project deploy start`: Deploy metadata to your org
-- `sf project retrieve start`: Retrieve metadata from your org
-- `sf template generate <artifact>`: Scaffold new components, such as Apex classes and triggers, LWC components, Lightning apps, and more
-- `sf apex <command>`: Run Apex tests, run anonymous Apex blocks, and view logs
-- `sf data <command>`: Work with test data
-- `sf alias <command>`: Manage org aliases
-- `sf config <command>`: Configure CLI settings
+## 📖 Development Workflow
 
-## Use Agentforce Vibes to Build Lightning Apps
+My approach to solving Salesforce development problems:
 
-Transform your ideas into custom Lightning apps that extend CRM workflows directly in Lightning Experience. Through natural conversations with Agentforce Vibes, implement custom objects and fields, complex business logic, and dynamic UI components. See [Build a Lightning App Using Agentforce Vibes](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/lexapp-overview.html).
+1. Understand the problem statement.
+2. Analyze the requirements and develop the logic.
+3. Write Apex code using VS Code.
+4. Deploy the code to Trailhead Playground.
+5. Execute and test the code.
+6. Debug errors using Developer Console and Debug Logs.
+7. Push the completed solution to GitHub.
 
-## Additional Resources
+## 📅 Learning Progress
 
-- [Agentforce Vibes Developer Guide](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/einstein-overview.html)
-- [Salesforce CLI Installation Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/)
-- [Salesforce CLI Plugin Development Guide](https://developer.salesforce.com/docs/platform/salesforce-cli-plugin/guide/conceptual-overview.html)
-- [Salesforce VS Code Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+### November 2026
 
+**13 November 2026**
+
+Topics and activities:
+
+- Set up Salesforce Development Environment.
+- Installed Salesforce Extension Pack.
+- Configured Salesforce CLI.
+- Authorized Trailhead Playground in VS Code.
+- Created Salesforce DX Project.
+- Practiced Apex Class creation.
+- Solved StringListTest coding challenge.
+- Integrated Salesforce project with GitHub.
+
+## 🎯 Future Goals
+
+- Strengthen Apex programming fundamentals.
+- Master SOQL and SOSL.
+- Understand Apex Triggers and Trigger Framework.
+- Learn Salesforce Governor Limits.
+- Write effective Apex Test Classes.
+- Develop Lightning Web Components (LWC).
+- Build real-world Salesforce projects.
+
+## 📌 Learning Resources
+
+- [Salesforce Trailhead](https://trailhead.salesforce.com/)
+- [Salesforce Developer Documentation](https://developer.salesforce.com/docs)
+- [Salesforce Apex Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
+
+---
+
+**This repository represents my continuous learning journey in Salesforce Development. New concepts, coding challenges, and projects will be added regularly.**
+
+⭐ Learning, Practicing, and Growing!
